@@ -1,0 +1,68 @@
+.blink {
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+.error {
+  width: 99%;
+  margin: 0px auto;
+  margin-left: auto%;
+  padding: 10px;
+  color: #a94442;
+  text-align: left;
+  position: inherit;
+}
+.succezz {
+  width: 99%;
+  margin: 0px auto;
+  margin-left: auto%;
+  padding: 10px;
+  color: green;
+  text-align: left;
+  position: inherit;
+}
+#A, #B {
+    position: absolute;
+ }
+ #A {
+    top: 0px;
+    width: 200px;
+    bottom: 0px;
+
+ }
+ #B {
+    top: 0px;
+    left: 200px;
+    right: 0;
+    bottom: 0px;
+
+ }
+/* .title{
+	color: #555;
+	border-bottom: 2px solid orange;
+} */
+ .title{
+	color: #F16A70;
+
+	display: inline-block;
+	font-size: 30;
+
+	text-decoration: none;
+	background-image: linear-gradient(to right, #F16A70, orange);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: 50% 2px;
+	transition: background-size .5s ease;
+ }
+ .title:hover {
+	background-size: 100% 2px;
+ }
